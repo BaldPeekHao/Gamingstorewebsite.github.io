@@ -1,0 +1,56 @@
+body{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar ul{
+    list-style: none;
+    background: #e85000 ;
+    padding: 0  ;
+    margin: 0  ;
+    text-align: center;
+    border-radius: 2%;
+    height: 50px;
+    width: 100%;
+
+    
+}
+.navbar li {
+    display: inline-block;
+    text-align: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: #ECF2FF;
+    width: 230px;
+    display: block;
+    padding: 6.5%  ;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px ;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: .4s;
+    border-radius: 10%;
+}
+.navbar a:hover{
+    background: #FE6244;
+    border-radius: 0%;
+    text-align: center;
+    border-radius: 12%;
+}
+footer{
+    text-align: right;
+}
+
+label.logo{
+    color: white;
+}
+div.contact{
+    text-align: center;
+}
+h4{
+    text-shadow: #e85000;
+}
